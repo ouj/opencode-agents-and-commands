@@ -1,5 +1,4 @@
-# .opencode
-Config files for OpenCode.
+# Agent and commands for OpenCode.
 
 ## Install
 Copy the config into your local OpenCode config directory:

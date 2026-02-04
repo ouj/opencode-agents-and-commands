@@ -1,7 +1,7 @@
 ---
 description: Commit changes and push to a remote branch
 agent: build
-model: opencode/big-pickle
+model: openai/gpt-5.2-codex
 ---
 
 - Create a conventional commit for the current staged changes.
