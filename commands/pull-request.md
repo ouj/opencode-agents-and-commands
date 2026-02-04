@@ -1,7 +1,7 @@
 ---
 description: Create or update a GitHub pull request
 agent: build
-model: opencode/big-pickle
+model: openai/gpt-5.2-codex
 ---
 
 - Determine the current branch; if the branch is `main`, ask for a new branch name and create it before proceeding.

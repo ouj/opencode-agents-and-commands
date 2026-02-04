@@ -1,7 +1,7 @@
 ---
 description: Create a git commit based on current changes
 agent: build
-model: opencode/big-pickle
+model: openai/gpt-5.2-codex
 ---
 
 - Create a conventional commit for the current staged changes.
