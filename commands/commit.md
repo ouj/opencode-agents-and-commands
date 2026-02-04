@@ -1,10 +1,6 @@
 ---
 description: Create a git commit based on current changes
-agent: build
-model: openai/gpt-5.2-codex
+agent: pr
 ---
 
-- Create a conventional commit for the current staged changes.
-- If there are no staged files, ask users whether they want to stage all changes or select files to stage.
-- Do not stage files without user confirmation; only inspect staged changes.
-- Use a proper Conventional Commits message and match the language of recent commit messages.
+- Create a commit for the current changes without pushing or opening a PR.
