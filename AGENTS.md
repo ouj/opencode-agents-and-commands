@@ -26,6 +26,8 @@ Validation is done by OpenCode and by manual command execution.
 - Commands in `commands/` are loaded by OpenCode automatically.
 - Validate new or edited commands by running them in OpenCode.
 - Prefer small, focused changes and verify behavior after edits.
+- To sync repo command and agent definitions to local OpenCode config, run:
+  `rsync -av --delete ./agents/ ~/.config/opencode/agents/ && rsync -av --delete ./commands/ ~/.config/opencode/commands/`
 
 ### Single Test Guidance
 
